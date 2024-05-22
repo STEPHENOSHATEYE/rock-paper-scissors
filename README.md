@@ -15,3 +15,5 @@ paper > rock;
 If computer or user wins a round, they move to the next round. It's a tie, there is no winner hence, the round is replayed till there's a winner.
 
 At the end of the game, the winner is declared.
+
+More improvements are coming to this game as I progress through the course, WATCH OUT!!!!
