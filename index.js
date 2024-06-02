@@ -1,10 +1,11 @@
-//Initial
+//Initialize playgame() function;
 function playGame(){
-
+    //Initialize computer and human score to 0;
     let computerScore = 0;
     let humanScore = 0;
 
     function makeComputerChoice(){
+        //An array of rock, paper, scissors where computer makes choices
         let rps = ['rock', 'paper', 'scissors'];
         let getRandomComputerChoice = rps[Math.floor(Math.random()* (3))];//generate an index number from 0 to 2 to pick from the rps array
         return getRandomComputerChoice;
@@ -14,7 +15,10 @@ function playGame(){
         //Prompt user to input rock, paper, scissors;
         let humanChoice = (prompt('Enter Rock, Paper or Scissors')).toLowerCase();
         //If user input rock, paper, scissors corrrectly, return humanChoice
-        if ((humanChoice.toUpperCase() === "ROCK") || (humanChoice.toUpperCase() === "PAPER") || (humanChoice.toUpperCase() === "SCISSORS")) {
+        if ((humanChoice.toUpperCase() === "ROCK") || 
+            (humanChoice.toUpperCase() === "PAPER") || 
+            (humanChoice.toUpperCase() === "SCISSORS")
+            ){
             return humanChoice;
         }
         // else throw an alert and re-ask for input via recursion;
@@ -54,8 +58,8 @@ function playGame(){
         
         return outcome;
     }
-
-    //Initialize round;
+ 
+    //Initialize round to 1, so the games starts at round 1;
     let roundCounter = 1;
     //Set the number of rounds to be played;
     const numberOfRounds = 5;
@@ -103,6 +107,7 @@ function playGame(){
     //End while loop
     }
     //Display result of the game 
-    console.log((humanScore>computerScore)?"Congratulations, you won this game".toUpperCase():"Oppps, you lose this game, try again".toUpperCase())
+    console.log((humanScore>computerScore)?
+    "Congratulations, you won this game".toUpperCase():
+    "Oppps, you lose this game, try again".toUpperCase());
 }
-
