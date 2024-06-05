@@ -4,29 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ROCK PAPER SCISSORS GAME</title>
+        <script src="index.js" defer></script>
     </head>
 
     <body>
-        <script src="index.js"></script>
-        <h1>Rock, Paper, Scissors Game</h1>
-        <p>
-            This game is designed to function inside of the Google Chrome browser console.
-        </p>
-        <p>
-            To play the game, you'll first need to open the console inside DevTools, per the following instructions:
-        </body>
-        <ol>
-            <li>Right-click on the page, click on <strong>Inspect</strong> from the menu, then navigate to the tab.</li>
-            <li>Alternatively, use the following shortcut:</li>
-            <ul>
-                <li>For Mac: cmd + option + J</li>
-                <li>For Windows, Linux, ChromeOS: ctrl + shift + J</li>
-            </ul>
-        </ol>
-        <p>
-            Once you're in the broswer console, type <strong>playGame()</strong> to play a game of rock, paper, scissors.
-        </p>
-        <p></p>
+        
+        <div id="scoreBoard-container">Player 0 : 0 Computer</div>
+        <h1 id="Greeting">WELCOME TO ROCK, PAPER, SCISSORS GAME</h1>
+        <div id='info'> PLAYER VS COMPUTER</div>
+        
+        <div class="button-container">
+            <button class="rock">ROCK</button>
+            <button class="paper">PAPER</button>
+            <button class="scissors">SCISSORS</button>
+        </div>
         
     </body>
 </html>
