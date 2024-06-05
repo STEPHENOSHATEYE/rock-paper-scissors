@@ -2,9 +2,9 @@
 
 This is a simple project given as an exercise from [The Odin Project's](www.theodinprojec.com) foundation JavaScript.
 
-It works by first prompting the user for rock, paper or scissors although the user have to type it manually. This can be easily done with a pop-up box for a smoother user experience but it was required by the scope of the exercise :).
+It works by first asking the user to click a rock, paper or scissors button to select their choice. This is very ideal for a smoother user experience but it was required by the scope of the exercise :).
 
-After getting the user's choice, a function is called to generate the computer choice from an array of rock, paper, scissors.
+For each click, a round is play through a function called by the event listener on the button element.
 
 Thirdly, the user's choice is compared to the computer's choice and the winner of the round is decided by:
 

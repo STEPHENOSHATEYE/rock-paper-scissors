@@ -26,8 +26,10 @@ function checkRound(event){
 };
 
 buttons.forEach((button) => {
-    button.addEventListener("click", checkRound)
-})
+    button.addEventListener("click", checkRound);
+});
+
+
 //Initialize playgame() function;
 function playGame(event){
     function makeComputerChoice(){
