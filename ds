@@ -1,0 +1,57 @@
+[33mcommit 1c46920d90e2a65cc19ba96597e75aaf25a027db[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrps-ui[m[33m, [m[1;31morigin/rps-ui[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mui[m[33m, [m[1;32mmain[m[33m)[m
+Merge: dbde699 ae5e28d
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Sun Jun 2 04:20:39 2024 +0100
+
+    Merge branch 'main' of github.com:STEPHENOSHATEYE/rock-paper-scissors
+
+[33mcommit dbde6996b6f00163f60bea8374f80f4d2768001b[m
+Author: STEPHENOSHATEYE <stephenolaitanoshateye@gmail.com>
+Date:   Sun Jun 2 04:14:47 2024 +0100
+
+    made comment and made index.js files cleaner
+
+[33mcommit ae5e28de1749fb450d41d5c147ed7016e98c8971[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Wed May 22 01:53:07 2024 +0100
+
+    Update README.md
+
+[33mcommit d771c309e4480ea8dee987591c95ec04a9653a8a[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Wed May 22 01:51:54 2024 +0100
+
+    Update README.md
+    
+    updated README.md and added links to theodinproject webpage
+
+[33mcommit ce314b373e01f5c796275bcca5cdaa0f323bf817[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Wed May 22 01:19:48 2024 +0100
+
+    Created a simple instruction page on how to play rock, paper, scissors
+
+[33mcommit e6d9c186c911d1225b9195603411b24d04e5fcd6[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Wed May 22 00:56:53 2024 +0100
+
+    added logic for playGame() function in javascript
+    create a simple instructions page with html
+
+[33mcommit 0da4f32b6b6fd54d84a7e488119a09d48f754882[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Tue May 21 12:29:17 2024 +0100
+
+    Create index.js
+
+[33mcommit d46b048cf86ddc685a7e3892f49675cb0ed3de16[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Tue May 21 12:28:37 2024 +0100
+
+    Create index.html
+
+[33mcommit 8f1353330e43fae84712630d7ce1625f3966c771[m
+Author: STEPHENOSHATEYE <155460166+STEPHENOSHATEYE@users.noreply.github.com>
+Date:   Tue May 21 12:28:11 2024 +0100
+
+    Create README.md
