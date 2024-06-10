@@ -32,6 +32,7 @@ buttons.forEach((button) => {
 
 //Initialize playgame() function;
 function playGame(event){
+    console.log(event.target.className)
     function makeComputerChoice(){
         //An array of rock, paper, scissors where computer makes choices
         let rps = ['rock', 'paper', 'scissors'];

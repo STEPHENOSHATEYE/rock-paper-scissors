@@ -17,4 +17,35 @@ body{
     display: flex;
     justify-content: center ;
     font-family: 'GAME', sans-serif;
+    text-align: center  ;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    background-color: transparent;
+}
+
+.rock,
+.paper,
+.scissors {
+    height: 150px;
+    width: 120px;
+    border: 0px;
+}
+
+.rock {
+    background-image: url(images/rock.png);
+}
+
+.paper {
+    background-image: url(images/paper.png);
+}
+
+.scissors {
+    background-image: url(images/scissors.png);
 }
