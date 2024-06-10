@@ -122,7 +122,7 @@ function playGame(event){
     }    
 
     //Update and Display score to the page
-    div.textContent = (`human:${humanScore} : computer:${computerScore}`);
+    div.textContent = (`HUMAN ${humanScore} - ${computerScore} COMPUTER`);
         
     // Increment round counter if replay round is false, else don't increment;
     if (!replayRound){
