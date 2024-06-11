@@ -24,6 +24,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding: 10px;
 }
 
 button {
@@ -33,19 +34,33 @@ button {
 .rock,
 .paper,
 .scissors {
-    height: 150px;
-    width: 120px;
     border: 0px;
+    /* background-color: antiquewhite; */
 }
 
 .rock {
-    background-image: url(images/rock.png);
+    height: 177px;
 }
 
-.paper {
-    background-image: url(images/paper.png);
+.label {
+    text-align: center;
+
 }
 
-.scissors {
-    background-image: url(images/scissors.png);
+.buttons { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
 }

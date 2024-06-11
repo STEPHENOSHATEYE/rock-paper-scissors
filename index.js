@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('img');
 const div = document.getElementById('scoreBoard-container');
 const roundResult = document.getElementById('info');
 
@@ -132,3 +132,4 @@ function playGame(event){
 
     //End while loop
 }
+
