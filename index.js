@@ -1,5 +1,5 @@
 const buttons = document.querySelectorAll('img');
-const div = document.getElementById('scoreBoard-container');
+const div = document.querySelector('.scoreBoard');
 const roundResult = document.getElementById('info');
 
 let globalHumanChoice = '';
@@ -15,10 +15,9 @@ function checkRound(event){
         //and pass the event from the eventlistener as an argument in the function;
         playGame(event)
     }else{
-        //Display result of the game 
-        alert((humanScore>computerScore)?
-        "Congratulations, you won this game".toUpperCase():
-        "Oppps, you lose this game, try again".toUpperCase());
+        //Instruction to restart game
+        roundResult.textContent = 'REFRESH PAGE TO START AGAIN'
+        //removes event listener from the button element
         buttons.forEach((button) => {
             button.removeEventListener('click',()=> {});
         });
@@ -123,13 +122,18 @@ function playGame(event){
     }    
 
     //Update and Display score to the page
-    div.textContent = (`HUMAN ${humanScore} - ${computerScore} COMPUTER`);
+    div.textContent = (`HUMAN   ${humanScore} - ${computerScore}   COMPUTER`);
         
     // Increment round counter if replay round is false, else don't increment;
     if (!replayRound){
         ++roundCounter;
     }
-
     //End while loop
+
+    if (roundCounter > 5){
+        roundResult.textContent = ((humanScore>computerScore)?
+        "Congratulations, you won this game".toUpperCase():
+        "Oppps, you lose this game, try again".toUpperCase());
+    }
 }
 
